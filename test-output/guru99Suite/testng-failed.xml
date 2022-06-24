@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [guru99Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="newcustomerTest(failed)">
+    <classes>
+      <class name="com.guru99bank.tests.Newcustomespagetest">
+        <methods>
+          <include name="newcustomeraddresstest"/>
+          <include name="invokebrowser"/>
+          <include name="closebrowser"/>
+          <include name="newcustomernametest"/>
+          <include name="verifylogindetails"/>
+        </methods>
+      </class> <!-- com.guru99bank.tests.Newcustomespagetest -->
+    </classes>
+  </test> <!-- newcustomerTest(failed) -->
+</suite> <!-- Failed suite [guru99Suite] -->
